@@ -2,7 +2,8 @@
 nav {
     position: relative;
     top: 0;
-    font-family: Arial, sans-serif; /* Corrigido */
+    font-family: Arial, sans-serif;
+    /* Corrigido */
     box-shadow: 1px 2px 5px black;
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -25,10 +26,13 @@ body {
 /* Container principal */
 #appCep {
     background-color: #ffffff;
-    padding: 15px; /* Ajustado */
+    padding: 15px;
+    /* Ajustado */
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ajustado */
-    max-width: 100%; /* Ajustado */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Ajustado */
+    max-width: 100%;
+    /* Ajustado */
     width: 100%;
 }
 
@@ -47,7 +51,8 @@ body {
 .form-control {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 10px; /* Ajustado */
+    padding: 10px;
+    /* Ajustado */
     font-size: 16px;
     transition: all 0.3s ease-in-out;
 }
@@ -89,15 +94,12 @@ body {
     }
 
     #appCep {
-<<<<<<< HEAD
         position: relative;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         top: 10rem;
-=======
-        padding: 10px; /* Ajustado */
->>>>>>> 13c7287344ab761608bb57471e79162bc948b339
+        padding: 10px;
     }
 
     .form-control {
@@ -106,17 +108,12 @@ body {
 
     .btn-primary {
         font-size: 16px;
-        padding: 10px; /* Ajustado */
+        padding: 10px;
     }
 }
 
-<<<<<<< HEAD
-fa-brands {
-    background-color: white;
-}
-=======
 /* Estilo para ícones Font Awesome, se necessário */
 .fa-brands {
-    background-color: white; /* Ajustado para a classe correta */
+    background-color: white;
+    /* Ajustado para a classe correta */
 }
->>>>>>> 13c7287344ab761608bb57471e79162bc948b339
