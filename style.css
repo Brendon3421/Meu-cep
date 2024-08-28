@@ -1,12 +1,18 @@
 /* Estilo global */
-nav{
+nav {
     position: relative;
     top: 0;
     font-style: Arial;
     box-shadow: 1px 2px 5px black;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #f7f9fc;
+
 }
+
 body {
-    background-color: #f4f7fc;
+    background: rgb(152, 163, 164);
+    background: linear-gradient(129deg, rgba(152, 163, 164, 1) 39%, rgba(255, 255, 255, 1) 39%);
     font-family: 'Roboto', sans-serif;
     color: #333;
     display: flex;
@@ -76,8 +82,18 @@ body {
 
 /* Layout responsivo */
 @media (max-width: 768px) {
+
+    nav {
+        position: relative;
+
+    }
+
     #appCep {
-        padding: 15px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 10rem;
     }
 
     .form-control {
@@ -90,6 +106,6 @@ body {
 
 }
 
-fa-brands{
+fa-brands {
     background-color: white;
 }

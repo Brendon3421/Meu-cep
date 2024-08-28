@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-yH+1t5AR+AhlpZf3cZ9xGjXb7SpOQGr+Q3oFh/7gXH/Yb7N+WckKbO3b1xTl8qlKg/7yR5aBsh4XKDs5i/jzXQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 
 </head>
@@ -23,12 +24,17 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button>   
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand " href="#">Meu cep</a>
             </div>
-
-            <button class="btn btn-primary flex-end bg-black"> <i class="fa-brands fa-github"></i> Github</button>
+            <div class="collapse navbar-collapse">
+                <p id="user-ip" class="navbar-brand ">Carregando IP...</p>
+            </div>
+            <a href="https://github.com/Brendon3421">
+                <button class="btn btn-primary flex-end bg-black"> <i class="fa-brands fa-github"
+                        style="margin-right:3px ;"></i>Github</button>
+            </a>
         </div>
     </nav>
     </nav>
@@ -119,3 +125,4 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
