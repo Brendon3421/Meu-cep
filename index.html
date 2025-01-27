@@ -14,7 +14,8 @@
         integrity="sha512-yH+1t5AR+AhlpZf3cZ9xGjXb7SpOQGr+Q3oFh/7gXH/Yb7N+WckKbO3b1xTl8qlKg/7yR5aBsh4XKDs5i/jzXQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
+    <link rel="shortcut icon" href="assets/icons/icon.svg" type="image/x-icon">
+    <title>Qual meu cep?</title>
 
 </head>
 
@@ -51,19 +52,21 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12">
-                    <div class="mb-3">
-                        <label class="form-label">rua</label>
+                <div class="col-md-5">
+                    <div class="mb-2">
+                        <label class="form-label">Rua</label>
                         <input type="text" name="rua" id="rua" class="form-control">
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="mb-3">
-                        <label class="form-label">bairro</label>
+                        <label class="form-label">Bairro</label>
                         <input type="text" name="bairro" id="bairro" class="form-control">
                     </div>
                 </div>
+               
+
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3">
@@ -72,9 +75,9 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label class="form-label">estado</label>
+                    <div class="col-md-5">
+                        <div class="mb-2">
+                            <label class="form-label">Estado</label>
                             <input type="text" name="estado" id="uf" class="form-control" readonly>
                         </div>
                     </div>
@@ -82,43 +85,41 @@
 
                 <div class="col-md-3">
                     <div class="mb-3">
-                        <label class="form-label">IBGE</label>
+                        <label class="form-label">Ibge</label>
                         <input type="text" name="ibge" id="ibge" class="form-control" readonly>
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="mb-3">
-                        <label class="form-label">DDD</label>
+                        <label class="form-label">Ddd</label>
                         <input type="text" name="ddd" id="ddd" class="form-control" readonly>
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="mb-3">
-                        <label class="form-label">GIA</label>
+                        <label class="form-label">Gia</label>
                         <input name="gia" id="gia" type="text" class="form-control" readonly>
+                    </div>
+                </div>
+                <div class="longitude"></div>
+                <div class="col-md-5" >
+                    <div class="mb-3">
+                        <label class="form-label">Sua longitude</label>
+                        <input type="text" name="longitude" id="longitude" class="form-control" readonly>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="mb-3">
+                        <label class="form-label">Sua Latitude</label>
+                        <input type="text" name="latitude" id="Latitude" class="form-control" readonly>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="mb-3">
-                <label class="form-label">Sua longitude</label>
-                <input type="text" name="longitude" id="longitude" class="form-control" readonly>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="mb-3">
-                <label class="form-label">Sua Latitude</label>
-                <input type="text" name="latitude" id="Latitude" class="form-control" readonly>
-            </div>
-        </div>
-    </div>
-
 </body>
 
 </html>
